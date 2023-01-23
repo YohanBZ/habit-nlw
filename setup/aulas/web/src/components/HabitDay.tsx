@@ -40,7 +40,7 @@ const [completed, setCompleted] = useState(defaultCompleted)
              <span className='font-semibold text-zinc-400'>{dayOfWeek}</span>
              <span className='mt-1 font-extrabold leading-tight text-3xl'>{dayAndMonth}</span>
 
-                <ProgressBar progress={completedPercentage}/>
+              <ProgressBar progress={completedPercentage}/>
               
               <HabitsList date={date} onCompletedChanged={handleCompletedChanged}/>
 
